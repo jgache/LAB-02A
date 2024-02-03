@@ -277,7 +277,7 @@ textarea {
     text-align: center;
   }
   .mainbody {
-    background-color: rgb(190, 179, 209);
+    background-color: white;
     margin-right: 100px;
     margin-left: 100px;
   }
@@ -286,12 +286,20 @@ textarea {
   }
   
 } 
-/* Medium and up
+/*Medium and up*/
 @media  screen and (min-width: 40em) {
-  .body {
-    background-color: rgb(137, 177, 139);
+  .headerContainer {
+    text-align: center;
   }
-} */
+  .mainbody {
+    background-color: white;
+    margin-right: 200px;
+    margin-left: 200px;
+  }
+  .footer{
+    text-align: center;
+  }
+}
 
 /*Medium only: Tablet size*/
 @media  (min-width: 40em) and (max-width: 63.9375em) {
@@ -299,7 +307,7 @@ textarea {
     text-align: center;
   }
   .mainbody {
-    background-color: rgb(184, 159, 135);
+    background-color: white;
     margin-right: 200px;
     margin-left: 200px;
   }
@@ -314,7 +322,7 @@ textarea {
     text-align: center;
   }
   .mainbody {
-    background-color: rgb(255, 204, 204);
+    background-color: white;
     margin-right: 400px;
     margin-left: 400px;
   }
@@ -326,10 +334,20 @@ textarea {
 
 } 
 
-/* Large only
+/*Large only*/
 @media  (min-width: 64em) and (max-width: 74em) {
-  .body {
-    background-color: red;
+  .headerContainer {
+    text-align: center;
   }
-}  */
+  .mainbody {
+    background-color: white;
+    margin-right: 400px;
+    margin-left: 400px;
+  }
+  .footer{
+    text-align: center;
+  
+    
+  }
+} 
 
