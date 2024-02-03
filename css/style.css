@@ -267,3 +267,110 @@ textarea {
   }
 }
 
+.body {
+  margin: 0%;
+}
+
+
+
+.footer {
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 30px; 
+  background-color: #333;
+  color: #efefef;
+  display: flex;
+  justify-content: space-between; 
+
+}
+
+.footer p {
+  margin: 10px 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+
+/*Small only: mobile size*/
+@media screen and (max-width: 39.9375em) {
+  .headerContainer {
+    text-align: center;
+  }
+  .mainbody {
+    background-color: white;
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+  .footer{
+    text-align: center;
+  }
+  
+} 
+/*Medium and up*/
+@media  screen and (min-width: 40em) {
+  .headerContainer {
+    text-align: center;
+  }
+  .mainbody {
+    background-color: white;
+    margin-right: 200px;
+    margin-left: 200px;
+  }
+  .footer{
+    text-align: center;
+  }
+}
+
+/*Medium only: Tablet size*/
+@media  (min-width: 40em) and (max-width: 63.9375em) {
+  .headerContainer {
+    text-align: center;
+  }
+  .mainbody {
+    background-color: white;
+    margin-right: 200px;
+    margin-left: 200px;
+  }
+  .footer{
+    text-align: center;
+  }
+} 
+
+/*Large and up: Pc and Laptop size*/
+@media  screen and (min-width: 64em) {
+  .headerContainer {
+    text-align: center;
+  }
+  .mainbody {
+    background-color: white;
+    margin-right: 400px;
+    margin-left: 400px;
+  }
+  .footer{
+    text-align: center;
+  
+    
+  }
+
+} 
+
+/*Large only*/
+@media  (min-width: 64em) and (max-width: 74em) {
+  .headerContainer {
+    text-align: center;
+  }
+  .mainbody {
+    background-color: white;
+    margin-right: 400px;
+    margin-left: 400px;
+  }
+  .footer{
+    text-align: center;
+  
+    
+  }
+} 
+
