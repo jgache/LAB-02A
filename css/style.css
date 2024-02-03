@@ -246,3 +246,80 @@ textarea {
   }
 }
 
+
+
+.footer {
+  margin-top: 150px;
+  width: 100%;
+  padding: 100px 15%;
+  background-color: #333;
+  color: #efefef;
+  display: flex;
+
+}
+
+
+
+
+/*Small only: mobile size*/
+@media screen and (max-width: 39.9375em) {
+  .headerContainer {
+    text-align: center;
+  }
+  .body {
+    background-color: rgb(158, 153, 166);
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+  .footer{
+    text-align: center;
+  }
+  
+} 
+/* Medium and up
+@media  screen and (min-width: 40em) {
+  .body {
+    background-color: rgb(137, 177, 139);
+  }
+} */
+
+/*Medium only: Tablet size*/
+@media  (min-width: 40em) and (max-width: 63.9375em) {
+  .headerContainer {
+    text-align: center;
+  }
+  .body {
+    background-color: rgb(184, 159, 135);
+    margin-right: 200px;
+    margin-left: 200px;
+  }
+  .footer{
+    text-align: center;
+  }
+} 
+
+/*Large and up: Pc and Laptop size*/
+@media  screen and (min-width: 64em) {
+  .headerContainer {
+    text-align: center;
+  }
+  .body {
+    background-color: rgb(255, 204, 204);
+    margin-right: 400px;
+    margin-left: 400px;
+  }
+  .footer{
+    text-align: center;
+  
+    
+  }
+
+} 
+
+/* Large only
+@media  (min-width: 64em) and (max-width: 74em) {
+  .body {
+    background-color: red;
+  }
+}  */
+
