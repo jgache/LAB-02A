@@ -83,7 +83,28 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+   .text {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 2000px;
+    height: 3340px;
+    z-index: 405;
+  }
+  .text {
+    font-size: 24px;
+    font-family: "Ubuntu";
+    color: rgb(59, 59, 59);
+    line-height: 1.458;
+    text-align: center;
+    position: absolute;
+    left: 722px;
+    top: 711.188px;
+    z-index: 403;
+  }
+  
+ 
+  
    
 /* ==========================================================================
    Helper classes
