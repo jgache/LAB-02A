@@ -323,6 +323,9 @@
     .headerContainer {
       text-align: center;
     }
+    .minionPicture{
+      display: none;
+    }
     .mainbody {
       background-color: white;
       margin-right: 200px;
@@ -340,6 +343,8 @@
     .mobilePage{
       display: none;
     }
+  
+ 
     /* .minionPicture{
       
     } */
@@ -349,6 +354,9 @@
   @media  (min-width: 40em) and (max-width: 63.9375em) {
     .headerContainer {
       text-align: center;
+    }
+    .minionPicture{
+      display: none;
     }
     .mainbody {
       background-color: white;
@@ -368,6 +376,28 @@
     .mobilePage{
       display: none;
     }
+    .sectionOneContainer{
+      display: none;
+    }
+    .sectionTwoContainer{
+      display: none;
+    }
+    .sectionThreeContainer{
+      display: none;
+    }
+    .sectionFourContainer{
+      display: none;
+    }
+    .aboutName{
+      display: none;
+    }
+    .aboutText{
+      display: none;
+    }
+    .minionsbar{
+      display: none;
+    }
+    
   } 
   
   /*Large and up: Pc and Laptop size*/
@@ -391,6 +421,9 @@
       display: none;
     }
     .mobilePage{
+      display: none;
+    }
+     .sectionTablet{
       display: none;
     }
     
@@ -418,6 +451,7 @@
     .sectionMobile{
       display: none;
     }
+   
     /* .minionPicture{
       size: ;
     } */
@@ -462,6 +496,7 @@
     padding: 5px;
     text-align: center;
   }
+
 
   .sectionTwoCard {
     flex: 33.33%;
